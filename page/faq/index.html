@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frequently Asked Questions</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+    <header>
+      <div class="container" data-aos="fade-down" >
+        <nav class="nabvar">
+          <a href="../landing.html" class="navbar-logo">
+            <img src="../DaerLeng-Logo.png" alt="">
+          </a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="../hotel.html" class="nav-link">
+                <!-- hotel -->
+                <i class="fa-solid fa-hotel"></i>
+                <p>សណ្ឋគារ</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../flight/flight.html" class="nav-link">
+                <!-- flight -->
+                <i class="fa-solid fa-plane"></i>
+                <p>ហោះហើរ</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../Bus/bus1.html" class="nav-link">
+                <!-- bus -->
+                <i class="fa-solid fa-bus"></i>
+                <p>ឡានក្រុង</p>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="../card.html" class="nav-link">
+                <!-- cart -->
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>កន្រ្តក</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../wish.html" class="nav-link">
+                <!-- wish list -->
+                <i class="fa-regular fa-heart"></i>
+                <p>បញ្ញីបំណង</p>
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="../Discount.html" class="nav-link">ការបញ្ចុះតម្លៃ</a>
+            </li>
+            <li class="nav-item">
+              <a href="../insurance_html 2 2/index.html" class="nav-link">ការធានា​រាប់​រង​</a>
+            </li>
+            <li class="nav-item">
+              <a href="../about.html" class="nav-link">អំពីយើង​</a>
+            </li>
+            <li class="nav-item">
+              <a href="../Contact.html" class="nav-link">ទំនាក់ទំនង​យើង​</a>
+            </li>
+          </ul>
+          <!-- <div class="nav-account">
+            <a href="#" class="account-btn">
+              <i class="fa-regular fa-user"></i>
+            </a>
+            <div class="account-dropdown">
+              <ul>
+                <li>
+                  <a href="#">ចូលគណនី</a>
+                </li>
+                <li>
+                  <a href="#">បង្កើតគណនី</a>
+                </li>
+              </ul>
+            </div>
+          </div> -->
+
+
+          <div class="profile-dropdown">
+            <div onclick="toggle()" class="profile-dropdown-btn">
+                <div class="profile-img">
+
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+
+                <span>Triforce
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </div>
+
+            <ul class="profile-dropdown-list">
+                <li class="profile-dropdown-list-item">
+                    <a href="../vcard-personal-portfolio/index.html">
+                        <i class="fa-regular fa-user"></i>
+                        កែប្រវត្តរូប
+                    </a>
+                </li>
+
+                <li class="profile-dropdown-list-item">
+                    <a href="#">
+                        <i class="fa-regular fa-envelope"></i>
+                        ប្រអប់សារ
+                    </a>
+                </li>
+
+                <li class="profile-dropdown-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-chart-line"></i>
+                        ការវិភាគ
+                    </a>
+                </li>
+
+                <li class="profile-dropdown-list-item">
+                    <a href="#">
+                        <i class="fa-solid fa-sliders"></i>
+                        ការកំណត់
+                    </a>
+                </li>
+
+                <li class="profile-dropdown-list-item">
+                    <a href="#">
+                        <i class="fa-regular fa-circle-question"></i>
+                        ជំនួយ
+                    </a>
+                </li>
+                <hr />
+
+                <li class="profile-dropdown-list-item">
+                    <a href="">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        ចាកចេញ
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+    
+      <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">សំណួរ​ដែលគេ​ច្រើន​សួរ</h2>
+
+      <div class="faq" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+        <button class="accordion">
+          តើខ្ញុំធ្វើការកក់សណ្ឋាគារដោយរបៀបណា?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+         <span>
+          ដើម្បីកក់សណ្ឋាគារ អ្នកអាចចូលទៅកាន់គេហទំព័ររបស់សណ្ឋាគារដោយផ្ទាល់ ប្រើវេទិកាកក់សណ្ឋាគារដូចជា Daer leng.com ឬទាក់ទងសណ្ឋាគារដោយផ្ទាល់តាមទូរស័ព្ទ។
+         </span>
+        </div>
+      </div>
+
+      <div class="faq"  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+        <button class="accordion">
+          តើខ្ញុំត្រូវផ្តល់ព័ត៌មានអ្វីខ្លះនៅពេលកក់សណ្ឋាគារ?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <span>
+            ជាធម្មតា អ្នកនឹងត្រូវផ្តល់ឈ្មោះរបស់អ្នក ព័ត៌មានទំនាក់ទំនង កាលបរិច្ឆេទនៃការស្នាក់នៅ ចំនួនភ្ញៀវ និងព័ត៌មានលម្អិតអំពីការទូទាត់។
+          </span>
+        </div>
+      </div>
+
+      <div class="faq"  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
+        <button class="accordion">
+          តើខ្ញុំអាចធ្វើការផ្លាស់ប្តូរ ឬលុបចោលការកក់សណ្ឋាគាររបស់ខ្ញុំបានទេ?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <span>
+            សណ្ឋាគារភាគច្រើនមានគោលការណ៍ទាក់ទងនឹងការផ្លាស់ប្តូរ និងការលុបចោល ដែលអាចប្រែប្រួល។ ត្រូវប្រាកដថាពិនិត្យមើលលក្ខខណ្ឌមុនពេលកក់។ ការកក់មួយចំនួនអាចមិនអាចដកវិញបានទេ ខណៈពេលដែលការកក់ផ្សេងទៀតអនុញ្ញាតឱ្យលុបចោលដោយឥតគិតថ្លៃរហូតដល់កាលបរិច្ឆេទជាក់លាក់មួយ។
+          </span>
+        </div>
+      </div>
+
+      <div class="faq"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+        <button class="accordion">
+          តើវិធីបង់ប្រាក់អ្វីខ្លះត្រូវបានទទួលយកសម្រាប់ការកក់សណ្ឋាគារ?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+        <span>
+          ជាធម្មតា សណ្ឋាគារទទួលយកប័ណ្ណឥណទានសំខាន់ៗដូចជា Visa, Mastercard និង American Express ។ អ្នកខ្លះក៏អាចទទួលយកវិធីបង់ប្រាក់ជំនួសដូចជា PayPal ឬការផ្ទេរតាមធនាគារផងដែរ។
+        </span>
+        </div>
+      </div>
+
+      <div class="faq"  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+        <button class="accordion">
+          តើមានការកម្រិតអាយុសម្រាប់ការកក់បន្ទប់សណ្ឋាគារដែរឬទេ?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <span>
+            សណ្ឋាគារជាច្រើនតម្រូវឱ្យភ្ញៀវមានអាយុយ៉ាងតិច 18 ឆ្នាំដើម្បីកក់បន្ទប់ ទោះបីជាខ្លះអាចមានតម្រូវការអាយុខ្ពស់ជាងក៏ដោយ។ លើសពីនេះ អនីតិជនអាចត្រូវអមដោយមនុស្សពេញវ័យ។
+          </span>
+        </div>
+      </div>
+
+      <div class="faq"  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
+        <button class="accordion">
+          តើព័ត៌មានប័ណ្ណឥណទានរបស់ខ្ញុំមានសុវត្ថិភាពនៅពេលកក់សណ្ឋាគារតាមអ៊ីនធឺណិតដែរឬទេ?
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div class="pannel">
+          <span>
+            គេហទំព័រកក់សណ្ឋាគារល្បីឈ្មោះប្រើបច្ចេកវិទ្យាអ៊ិនគ្រីបសុវត្ថិភាព ដើម្បីការពារព័ត៌មានផ្ទាល់ខ្លួន និងហិរញ្ញវត្ថុរបស់អ្នក។ រកមើលរូបតំណាងសោនៅក្នុងរបារអាសយដ្ឋាន ហើយត្រូវប្រាកដថា URL គេហទំព័រចាប់ផ្តើមដោយ "https://" ដើម្បីបង្ហាញពីការតភ្ជាប់សុវត្ថិភាព។
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <footer class="footer" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+      <div class="container-foter">
+       <div class="row">
+         <div class="footer-col">
+           <h4>ក្រុមហ៊ុន</h4>
+           <ul>
+             <li><a href="../about.html">អំពីយើង​</a></li>
+             <li><a href="../Bus/bus1.html">សេវាកម្មរបស់យើង</a></li>
+             <li><a href="#">ពត៍មានរបស់យើង</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>ជំនួយ</h4>
+           <ul>
+             <li><a href="../faq/index.html">សំនួរទទួលបានញឹកញាប់</a></li>
+             <li><a href="../booking.html">ការកក់សំបុត្រ</a></li>
+             <li><a href="../card.html">ការបង់លុយ</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>សេវាកម្មរបស់យើង</h4>
+           <ul>
+             <li><a href="../hotel.html">កក់កន្លែងស្នាក់នៅ</a></li>
+             <li><a href="../flight/flight.html">កក់សំបុត្រហោះហើរ</a></li>
+             <li><a href="../Bus/bus1.html">កក់សំបុត្រឡានក្រុង</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>បណ្តាញសង្គមរបស់យើង</h4>
+           <div class="social-links">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+   </footer>
+
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+    <script>
+
+      let profileDropdownList = document.querySelector(".profile-dropdown-list");
+      let btn = document.querySelector(".profile-dropdown-btn");
+  
+      let classList = profileDropdownList.classList;
+  
+      const toggle = () => classList.toggle("active");
+  
+      window.addEventListener("click", function (e) {
+          if (!btn.contains(e.target)) classList.remove("active");
+      });
+  
+    </script>
+  </body>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

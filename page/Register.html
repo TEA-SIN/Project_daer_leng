@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Registration </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="Rigister.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="nabvar">
+        <a href="landing.html" class="navbar-logo">
+          <img src="DaerLeng-Logo.png" alt="" />
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../page/flight/flight.html" class="nav-link">
+              <!-- hotel -->
+              <i class="fa-solid fa-hotel"></i>
+              <p>សណ្ឋគារ</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./flight/flight.html" class="nav-link">
+              <!-- flight -->
+              <i class="fa-solid fa-plane"></i>
+              <p>ហោះហើរ</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../page/Bus/bus.html/bus.html" class="nav-link">
+              <!-- bus -->
+              <i class="fa-solid fa-bus"></i>
+              <p>ឡានក្រុង</p>
+            </a>
+          </li>
+         
+          <li class="nav-item">
+            <a href="card.html" class="nav-link">
+              <!-- cart -->
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>កន្ត្រក</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="wish.html" class="nav-link">
+              <!-- wish list -->
+              <i class="fa-regular fa-heart"></i>
+              <p>បញ្ញីបំណង</p>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="Discount.html" class="nav-link">ការបញ្ចុះតម្លៃ</a>
+          </li>
+          <li class="nav-item">
+            <a href="../page/insurance_html 2 2/index.html" class="nav-link">ការធានា​រាប់​រង​</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">អំពីយើង​</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">ទំនាក់ទំនង​យើង​</a>
+          </li>
+        </ul>
+        <div class="nav-account">
+          <a href="#" class="account-btn">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <div class="account-dropdown">
+            <ul>
+              <li>
+                <a href="Login.html">ចូលគណនី</a>
+              </li>
+              <li>
+                <a href="Register.html">បង្កើតគណនី</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <main>
+        <div class="container animate__animated animate__bounceInDown">
+            <div class="title">ការចុះឈ្មោះ</div>
+            <div class="content">
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">ឈ្មោះពេញ</span>
+                            <input type="text" placeholder="បញ្ចូលឈ្មោះរបស់អ្នក" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">ឈ្មោះ​អ្នកប្រើប្រាស់</span>
+                            <input type="text" placeholder="បញ្ចូលឈ្មោះអ្នកប្រើប្រាស់" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">អ៊ីមែល</span>
+                            <input type="text" placeholder="បញ្ចូលអ៊ីមែល" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">លេខទូរស័ព្ទ</span>
+                            <input type="text" placeholder="បញ្ចូលលេខទូរស័ព្ទ" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">ពាក្យសម្ងាត់</span>
+                            <input type="text" placeholder="បញ្ចូលពាក្យសម្ងាត់" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">បញ្ជាក់ពាក្យសម្ងាត់</span>
+                            <input type="text" placeholder="បញ្ជាក់ពាក្យសម្ងាត់អ្នក" required>
+                        </div>
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3">
+                        <span class="gender-title">ភេទ</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">ប្រុស</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">ស្រី</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="gender">មិនបញ្ជាក់</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="ចុះឈ្មោះ">
+                    </div>
+                    <a class="footer-form" href="hotel.html">គណនីមានស្រាប់</a>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+      <div class="container-foter">
+       <div class="row">
+         <div class="footer-col">
+           <h4>ក្រុមហ៊ុន</h4>
+           <ul>
+             <li><a href="../page/about.html">អំពីយើង​</a></li>
+             <li><a href="../page/Bus/bus1.html">សេវាកម្មរបស់យើង</a></li>
+             <li><a href="#">ពត៍មានរបស់យើង</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>ជំនួយ</h4>
+           <ul>
+             <li><a href="../page/faq/index.html">សំនួរទទួលបានញឹកញាប់</a></li>
+             <li><a href="../page/booking.html">ការកក់សំបុត្រ</a></li>
+             <li><a href="../page/card.html">ការបង់លុយ</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>សេវាកម្មរបស់យើង</h4>
+           <ul>
+             <li><a href="../page/hotel.html">កក់កន្លែងស្នាក់នៅ</a></li>
+             <li><a href="../page/flight/flight.html">កក់សំបុត្រហោះហើរ</a></li>
+             <li><a href="../page/Bus/bus1.html">កក់សំបុត្រឡានក្រុង</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>បណ្តាញសង្គមរបស់យើង</h4>
+           <div class="social-links">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+   </footer>
+</body>
+
+</html>
